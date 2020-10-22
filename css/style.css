@@ -1,0 +1,454 @@
+/* Работа Жумабаева Асхата */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Start HEADER */
+.header{
+    background: url(../img/Rectangle\ 5.jpg) no-repeat;
+    margin-bottom: 100px;
+}
+
+.phone-number{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.info{
+    margin-top: 100px;
+}
+
+.info h4{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.info h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.info p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.info button{
+    width: 200px;
+    height: 64px;
+    font-weight: 600;
+}
+
+.truck img{
+    max-width: 100%;
+    height: auto;
+}
+
+.boxes{
+    border: 3px solid #EFF5F8;
+    background: #fefefe;
+    height: 240px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 7px;
+    margin-bottom: 150px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+
+.boxes h2{
+    font-size: 85px;
+    color: #EFF5F8;
+    font-weight: 900;
+}
+
+.boxes h5{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.boxes p{
+    text-align: center;
+}
+
+/* End HEADER */
+
+/* Start SECTION */
+
+.section{
+    background: url(../img/png\ section\ back.png) no-repeat;
+    height: 742px;
+    padding-bottom: 300px;
+}
+
+.our-advantages__title{
+    margin-bottom: 100px;
+}
+
+.our-advantages__title h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.our-advantages h5{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* End SECTION */
+
+/* Start SECTION-2 */
+
+.section-2{
+    background-color: #F8F8F8;
+    margin-top: -60px;
+}
+
+.feedback__right>input,
+.feedback__right button{
+    width: 65%;
+    margin: 20px 0;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.feedback__right>input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #797676;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 59px;
+}
+
+/* End SECTION-2 */
+
+/* Start FOOTER */
+
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+ max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  /* display: inline-block; */
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+
+/* End FOOTER */
+
+/* 
+#Popup phone
+-------------------------*/ 
+#popup__toggle {
+    bottom: 50px;
+    right: 125px;
+    position: fixed;
+    z-index: 999;
+}
+
+.circlephone {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    border: 2px solid rgba(40, 52, 191, 0.9);
+    width: 130px;
+    height: 130px;
+    bottom: -23px;
+    right: 7px;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    opacity: .5;
+    -webkit-animation: circle-anim 2.4s infinite ease-in-out !important;
+    -moz-animation: circle-anim 2.4s infinite ease-in-out !important;
+    -ms-animation: circle-anim 2.4s infinite ease-in-out !important;
+    -o-animation: circle-anim 2.4s infinite ease-in-out !important;
+    animation: circle-anim 2.4s infinite ease-in-out !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s;
+}
+
+@keyframes circle-anim {
+    0% {
+        transform: rotate(0deg) scale(0.5) skew(1deg);
+        opacity: .1;
+    }
+    30% {
+        transform: rotate(0deg) scale(0.7) skew(1deg);
+        opacity: .5;
+    }
+    100% {
+        transform: rotate(0deg) scale(1) skew(1deg);
+        opacity: .1;
+    }
+}
+
+.circle-fill {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: rgb(35, 73, 206);
+    width: 90px;
+    height: 90px;
+    bottom: -4px;
+    right: 30px;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: circle-fill-anim 2.3s infinite ease-in-out;
+    animation: circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all 0.5s;
+}
+
+@keyframes circle-fill-anim {
+    0% {
+        transform: rotate(0deg) scale(0.7) skew(1deg);
+        opacity: .2;
+    }
+    50% {
+        transform: rotate(0deg) scale(1) skew(1deg);
+        opacity: .2;
+    }
+    100% {
+        transform: rotate(0deg) scale(0.7) skew(1deg);
+        opacity: .2;
+    }
+}
+
+.img-circle {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    width: 172px;
+    height: 52px;
+    bottom: 14px;
+    right: -70px;
+    position: absolute;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    opacity: .7;
+}
+
+.img-circle {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: rgba(40, 52, 191, 0.9);
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+.img-circleblock {
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    width: 60px;
+    height: 53px;
+    background-image: url(../img/phone.png);
+    background-position: center center;
+    position: relative;
+    right: 2px;
+    background-repeat: no-repeat;
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+    0% {
+        transform: rotate(-8deg);
+    }
+    50% {
+        transform: rotate(8deg);
+    }
+    100% {
+        transform: rotate(-8deg);
+    }
+}
+
+.tem {
+    position: relative;
+    left: 79px;
+    bottom: 34px;
+    width: 100px;
+    line-height: 15px;
+    text-align: left;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 690px) {
+    #popup__toggle {
+        right: 81px;
+    }
+    .circlephone {
+        width: 105px;
+        height: 105px;
+        right: 21px;
+        bottom: -11px;
+    }
+    .img-circle {
+        width: 164px;
+        height: 46px;
+        bottom: 14px;
+        right: -70px;
+        border-radius: 14px;
+        border: 2px solid transparent;
+        opacity: .7;
+    }
+    .img-circleblock {
+        width: 44px;
+        height: 30px;
+        top: 8px;
+    }
+    .tem {
+        left: 55px;
+        bottom: 8px;
+        height: 24px;
+        bottom: 14px;
+    }
+}
+
+/* end of popup phone */
+
+@media all and (max-width: 576px){
+    .info{
+        text-align: center;
+    }
+
+@media all and (max-width: 768px){
+    
+    }
+
+@media all and (max-width: 992px){
+    
+    }   
+
+@media all and (max-width: 1200px){
+    
+    }
+}
